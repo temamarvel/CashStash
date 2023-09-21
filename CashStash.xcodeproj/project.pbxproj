@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B4A00F32ABC33E700B404F7 /* CashStashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */; };
+		3B4A00F52ABC33E700B404F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F42ABC33E700B404F7 /* ContentView.swift */; };
+		3B4A00F72ABC33E700B404F7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F62ABC33E700B404F7 /* Item.swift */; };
+		3B4A00F92ABC33E900B404F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4A00F82ABC33E900B404F7 /* Assets.xcassets */; };
+		3B4A00FC2ABC33E900B404F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4A00FB2ABC33E900B404F7 /* Preview Assets.xcassets */; };
+		3B4A01062ABC33E900B404F7 /* CashStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A01052ABC33E900B404F7 /* CashStashTests.swift */; };
+		3B4A01102ABC33E900B404F7 /* CashStashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A010F2ABC33E900B404F7 /* CashStashUITests.swift */; };
+		3B4A01122ABC33E900B404F7 /* CashStashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A01112ABC33E900B404F7 /* CashStashUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4A01022ABC33E900B404F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4A00E72ABC33E700B404F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4A00EE2ABC33E700B404F7;
+			remoteInfo = CashStash;
+		};
+		3B4A010C2ABC33E900B404F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4A00E72ABC33E700B404F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4A00EE2ABC33E700B404F7;
+			remoteInfo = CashStash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B4A00EF2ABC33E700B404F7 /* CashStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStashApp.swift; sourceTree = "<group>"; };
+		3B4A00F42ABC33E700B404F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B4A00F62ABC33E700B404F7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		3B4A00F82ABC33E900B404F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B4A00FB2ABC33E900B404F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B4A01012ABC33E900B404F7 /* CashStashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashStashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4A01052ABC33E900B404F7 /* CashStashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStashTests.swift; sourceTree = "<group>"; };
+		3B4A010B2ABC33E900B404F7 /* CashStashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashStashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4A010F2ABC33E900B404F7 /* CashStashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStashUITests.swift; sourceTree = "<group>"; };
+		3B4A01112ABC33E900B404F7 /* CashStashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4A00EC2ABC33E700B404F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A00FE2ABC33E900B404F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A01082ABC33E900B404F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B4A00E62ABC33E700B404F7 = {
+			isa = PBXGroup;
+			children = (
+				3B4A00F12ABC33E700B404F7 /* CashStash */,
+				3B4A01042ABC33E900B404F7 /* CashStashTests */,
+				3B4A010E2ABC33E900B404F7 /* CashStashUITests */,
+				3B4A00F02ABC33E700B404F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B4A00F02ABC33E700B404F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A00EF2ABC33E700B404F7 /* CashStash.app */,
+				3B4A01012ABC33E900B404F7 /* CashStashTests.xctest */,
+				3B4A010B2ABC33E900B404F7 /* CashStashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B4A00F12ABC33E700B404F7 /* CashStash */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */,
+				3B4A00F42ABC33E700B404F7 /* ContentView.swift */,
+				3B4A00F62ABC33E700B404F7 /* Item.swift */,
+				3B4A00F82ABC33E900B404F7 /* Assets.xcassets */,
+				3B4A00FA2ABC33E900B404F7 /* Preview Content */,
+			);
+			path = CashStash;
+			sourceTree = "<group>";
+		};
+		3B4A00FA2ABC33E900B404F7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A00FB2ABC33E900B404F7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B4A01042ABC33E900B404F7 /* CashStashTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A01052ABC33E900B404F7 /* CashStashTests.swift */,
+			);
+			path = CashStashTests;
+			sourceTree = "<group>";
+		};
+		3B4A010E2ABC33E900B404F7 /* CashStashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4A010F2ABC33E900B404F7 /* CashStashUITests.swift */,
+				3B4A01112ABC33E900B404F7 /* CashStashUITestsLaunchTests.swift */,
+			);
+			path = CashStashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4A00EE2ABC33E700B404F7 /* CashStash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4A01152ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStash" */;
+			buildPhases = (
+				3B4A00EB2ABC33E700B404F7 /* Sources */,
+				3B4A00EC2ABC33E700B404F7 /* Frameworks */,
+				3B4A00ED2ABC33E700B404F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CashStash;
+			productName = CashStash;
+			productReference = 3B4A00EF2ABC33E700B404F7 /* CashStash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B4A01002ABC33E900B404F7 /* CashStashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4A01182ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStashTests" */;
+			buildPhases = (
+				3B4A00FD2ABC33E900B404F7 /* Sources */,
+				3B4A00FE2ABC33E900B404F7 /* Frameworks */,
+				3B4A00FF2ABC33E900B404F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4A01032ABC33E900B404F7 /* PBXTargetDependency */,
+			);
+			name = CashStashTests;
+			productName = CashStashTests;
+			productReference = 3B4A01012ABC33E900B404F7 /* CashStashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B4A010A2ABC33E900B404F7 /* CashStashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4A011B2ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStashUITests" */;
+			buildPhases = (
+				3B4A01072ABC33E900B404F7 /* Sources */,
+				3B4A01082ABC33E900B404F7 /* Frameworks */,
+				3B4A01092ABC33E900B404F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4A010D2ABC33E900B404F7 /* PBXTargetDependency */,
+			);
+			name = CashStashUITests;
+			productName = CashStashUITests;
+			productReference = 3B4A010B2ABC33E900B404F7 /* CashStashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4A00E72ABC33E700B404F7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					3B4A00EE2ABC33E700B404F7 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					3B4A01002ABC33E900B404F7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3B4A00EE2ABC33E700B404F7;
+					};
+					3B4A010A2ABC33E900B404F7 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 3B4A00EE2ABC33E700B404F7;
+					};
+				};
+			};
+			buildConfigurationList = 3B4A00EA2ABC33E700B404F7 /* Build configuration list for PBXProject "CashStash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4A00E62ABC33E700B404F7;
+			productRefGroup = 3B4A00F02ABC33E700B404F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B4A00EE2ABC33E700B404F7 /* CashStash */,
+				3B4A01002ABC33E900B404F7 /* CashStashTests */,
+				3B4A010A2ABC33E900B404F7 /* CashStashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B4A00ED2ABC33E700B404F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4A00FC2ABC33E900B404F7 /* Preview Assets.xcassets in Resources */,
+				3B4A00F92ABC33E900B404F7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A00FF2ABC33E900B404F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A01092ABC33E900B404F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4A00EB2ABC33E700B404F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4A00F52ABC33E700B404F7 /* ContentView.swift in Sources */,
+				3B4A00F72ABC33E700B404F7 /* Item.swift in Sources */,
+				3B4A00F32ABC33E700B404F7 /* CashStashApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A00FD2ABC33E900B404F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4A01062ABC33E900B404F7 /* CashStashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4A01072ABC33E900B404F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4A01102ABC33E900B404F7 /* CashStashUITests.swift in Sources */,
+				3B4A01122ABC33E900B404F7 /* CashStashUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B4A01032ABC33E900B404F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4A00EE2ABC33E700B404F7 /* CashStash */;
+			targetProxy = 3B4A01022ABC33E900B404F7 /* PBXContainerItemProxy */;
+		};
+		3B4A010D2ABC33E900B404F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4A00EE2ABC33E700B404F7 /* CashStash */;
+			targetProxy = 3B4A010C2ABC33E900B404F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B4A01132ABC33E900B404F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B4A01142ABC33E900B404F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4A01162ABC33E900B404F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashStash/Preview Content\"";
+				DEVELOPMENT_TEAM = 8332P8K948;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B4A01172ABC33E900B404F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CashStash/Preview Content\"";
+				DEVELOPMENT_TEAM = 8332P8K948;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B4A01192ABC33E900B404F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8332P8K948;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashStash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashStash";
+			};
+			name = Debug;
+		};
+		3B4A011A2ABC33E900B404F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8332P8K948;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CashStash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CashStash";
+			};
+			name = Release;
+		};
+		3B4A011C2ABC33E900B404F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8332P8K948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashStash;
+			};
+			name = Debug;
+		};
+		3B4A011D2ABC33E900B404F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8332P8K948;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Denisov.CashStashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CashStash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4A00EA2ABC33E700B404F7 /* Build configuration list for PBXProject "CashStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4A01132ABC33E900B404F7 /* Debug */,
+				3B4A01142ABC33E900B404F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4A01152ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4A01162ABC33E900B404F7 /* Debug */,
+				3B4A01172ABC33E900B404F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4A01182ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4A01192ABC33E900B404F7 /* Debug */,
+				3B4A011A2ABC33E900B404F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4A011B2ABC33E900B404F7 /* Build configuration list for PBXNativeTarget "CashStashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4A011C2ABC33E900B404F7 /* Debug */,
+				3B4A011D2ABC33E900B404F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4A00E72ABC33E700B404F7 /* Project object */;
+}
