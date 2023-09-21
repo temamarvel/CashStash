@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CashStash
 //
-//  Created by Артем Денисов on 21.09.2023.
+//  Created by Art Denisov on 21.09.2023.
 //
 
 import SwiftUI

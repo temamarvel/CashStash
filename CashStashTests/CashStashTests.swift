@@ -2,7 +2,7 @@
 //  CashStashTests.swift
 //  CashStashTests
 //
-//  Created by Артем Денисов on 21.09.2023.
+//  Created by Art Denisov on 21.09.2023.
 //
 
 import XCTest
