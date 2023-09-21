@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		3B4A00F32ABC33E700B404F7 /* CashStashApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */; };
 		3B4A00F52ABC33E700B404F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F42ABC33E700B404F7 /* ContentView.swift */; };
-		3B4A00F72ABC33E700B404F7 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A00F62ABC33E700B404F7 /* Item.swift */; };
 		3B4A00F92ABC33E900B404F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4A00F82ABC33E900B404F7 /* Assets.xcassets */; };
 		3B4A00FC2ABC33E900B404F7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4A00FB2ABC33E900B404F7 /* Preview Assets.xcassets */; };
 		3B4A01062ABC33E900B404F7 /* CashStashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B4A01052ABC33E900B404F7 /* CashStashTests.swift */; };
@@ -38,7 +37,6 @@
 		3B4A00EF2ABC33E700B404F7 /* CashStash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CashStash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CashStashApp.swift; sourceTree = "<group>"; };
 		3B4A00F42ABC33E700B404F7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		3B4A00F62ABC33E700B404F7 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		3B4A00F82ABC33E900B404F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B4A00FB2ABC33E900B404F7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3B4A01012ABC33E900B404F7 /* CashStashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CashStashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,7 +96,6 @@
 			children = (
 				3B4A00F22ABC33E700B404F7 /* CashStashApp.swift */,
 				3B4A00F42ABC33E700B404F7 /* ContentView.swift */,
-				3B4A00F62ABC33E700B404F7 /* Item.swift */,
 				3B4A00F82ABC33E900B404F7 /* Assets.xcassets */,
 				3B4A00FA2ABC33E900B404F7 /* Preview Content */,
 			);
@@ -261,7 +258,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B4A00F52ABC33E700B404F7 /* ContentView.swift in Sources */,
-				3B4A00F72ABC33E700B404F7 /* Item.swift in Sources */,
 				3B4A00F32ABC33E700B404F7 /* CashStashApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
